@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>¡Abróchate!</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      background: #0f1222;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Arial;
+    }
+    #app {
+      height: 100%;
+      display: grid;
+      place-items: center;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <div id="game"></div>
+  </div>
+
+  <!-- Phaser UMD -->
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.80.0/dist/phaser.js"></script>
+  <!-- Punto de entrada del juego -->
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
+
+
+
+
